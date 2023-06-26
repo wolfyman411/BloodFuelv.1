@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &190561112694819926
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2844034524957714113, guid: eb8081083f488c9449cef42beef6efb6, type: 3}
+      propertyPath: damage
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 2844034524957714113, guid: eb8081083f488c9449cef42beef6efb6, type: 3}
+      propertyPath: cardCost
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 2844034524957714113, guid: eb8081083f488c9449cef42beef6efb6, type: 3}
+      propertyPath: cardDesc
+      value: Create a dummy that distracts enemies for a time
+      objectReference: {fileID: 0}
+    - target: {fileID: 2844034524957714113, guid: eb8081083f488c9449cef42beef6efb6, type: 3}
+      propertyPath: cardName
+      value: The Fool
+      objectReference: {fileID: 0}
+    - target: {fileID: 2844034524957714113, guid: eb8081083f488c9449cef42beef6efb6, type: 3}
+      propertyPath: cardType
+      value: Ability
+      objectReference: {fileID: 0}
+    - target: {fileID: 2844034524957714113, guid: eb8081083f488c9449cef42beef6efb6, type: 3}
+      propertyPath: cardImage
+      value: 
+      objectReference: {fileID: 2800000, guid: 9ace82e93b002664499d521272834c0a, type: 3}
+    - target: {fileID: 2844034524957714113, guid: eb8081083f488c9449cef42beef6efb6, type: 3}
+      propertyPath: bulletEffect
+      value: Dummy
+      objectReference: {fileID: 0}
+    - target: {fileID: 2844034524957714113, guid: eb8081083f488c9449cef42beef6efb6, type: 3}
+      propertyPath: rechargeTime
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2844034524957714113, guid: eb8081083f488c9449cef42beef6efb6, type: 3}
+      propertyPath: variationSound
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4888686700518069623, guid: eb8081083f488c9449cef42beef6efb6, type: 3}
+      propertyPath: m_Name
+      value: The Fool
+      objectReference: {fileID: 0}
+    - target: {fileID: 8527173089262591680, guid: eb8081083f488c9449cef42beef6efb6, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8527173089262591680, guid: eb8081083f488c9449cef42beef6efb6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8527173089262591680, guid: eb8081083f488c9449cef42beef6efb6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8527173089262591680, guid: eb8081083f488c9449cef42beef6efb6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8527173089262591680, guid: eb8081083f488c9449cef42beef6efb6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8527173089262591680, guid: eb8081083f488c9449cef42beef6efb6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8527173089262591680, guid: eb8081083f488c9449cef42beef6efb6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8527173089262591680, guid: eb8081083f488c9449cef42beef6efb6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8527173089262591680, guid: eb8081083f488c9449cef42beef6efb6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8527173089262591680, guid: eb8081083f488c9449cef42beef6efb6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8527173089262591680, guid: eb8081083f488c9449cef42beef6efb6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: eb8081083f488c9449cef42beef6efb6, type: 3}
+--- !u!1 &4718955427728185633 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4888686700518069623, guid: eb8081083f488c9449cef42beef6efb6, type: 3}
+  m_PrefabInstance: {fileID: 190561112694819926}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &-3208058242875416456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4718955427728185633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad86a89dd31305e49a75c607c312ee24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dummyObject: {fileID: 135280455792197857, guid: eafeb17b52a02f84192d61e3c9c91be5, type: 3}

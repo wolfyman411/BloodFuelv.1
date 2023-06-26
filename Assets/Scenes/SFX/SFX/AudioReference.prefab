@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5193079287882318063
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5970239461555581166}
+  - component: {fileID: -2495322777564401393}
+  m_Layer: 0
+  m_Name: AudioReference
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5970239461555581166
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5193079287882318063}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-2495322777564401393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5193079287882318063}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f61d3c26b17848499bfb0d6e47bb6c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  newSound: {fileID: 0}
+  createdSounds: []
+  ability: {fileID: 8300000, guid: bf2f85e0ca2d6c342a33778f7240fe1d, type: 3}
+  boon: {fileID: 8300000, guid: 8abec619143b191488bcd9684f190cd8, type: 3}
+  heavyattack: {fileID: 8300000, guid: 5cfb269ecbe72e64f8bec8e013abc04f, type: 3}
+  playerattack: {fileID: 8300000, guid: 179871bb3bc227f4e841dc4a94a4f84f, type: 3}
+  playerdead: {fileID: 8300000, guid: 8b4486d2fe873614c8ae8ec5df913c0d, type: 3}
+  playerhurt: {fileID: 8300000, guid: d3f1201bf6b90ec4188217691ac63892, type: 3}
+  playerhurtheavy: {fileID: 8300000, guid: 255e1b3d1b8598d4b999d416cdb53812, type: 3}
+  explosion: {fileID: 8300000, guid: 742aa98c23dc4b44db17c0745e10e065, type: 3}
+  bowattack: {fileID: 8300000, guid: e255d3427a4c55e4b8ef6c6f18945b07, type: 3}
+  enemydie: {fileID: 8300000, guid: 85c49b7c1849f3042a3313f9d9b3a5e5, type: 3}
+  enemyhit: {fileID: 8300000, guid: 057f6f289b85ca5418f32ce86d92fcdc, type: 3}
+  enemyhurt: {fileID: 8300000, guid: b6a5359832955ca42947d11ebcfd1b73, type: 3}
+  enemyswing: {fileID: 8300000, guid: 5863a587a5340b9489a7c24789bf9eff, type: 3}
+  trapplace: {fileID: 8300000, guid: db8428b42425f6446be0d8f5ec5d89d8, type: 3}
+  carddraw: {fileID: 8300000, guid: c48849f1a6b89a14fa32b080d7860d0c, type: 3}
+  cardpick: {fileID: 8300000, guid: be39ec074988026419fb426426407c9c, type: 3}
